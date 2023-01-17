@@ -6,6 +6,8 @@ import javax.swing.*;
 
 public class StudentGUI extends JFrame {
     private JPanel panel1;
+    private JTabbedPane tblogrenci;
+    private JButton button1;
 
     StudentGUI(){
         add(panel1);
@@ -17,6 +19,7 @@ public class StudentGUI extends JFrame {
         setLocation(x,y);
         setVisible(true);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+
     }
 
 }
